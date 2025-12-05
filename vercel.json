@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "server/api/index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "buildCommand": "cd server && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/server/api/index"
+    }
+  ]
+}
