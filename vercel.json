@@ -1,6 +1,7 @@
 {
   "version": 2,
   "installCommand": "npm install --prefix server",
+  "buildCommand": "npm install --prefix server",
   "rewrites": [
     {
       "source": "/(.*)",
