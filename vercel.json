@@ -1,7 +1,13 @@
 {
   "version": 2,
+  "functions": {
+    "api/index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
   "installCommand": "npm install --prefix server",
-  "buildCommand": "npm install --prefix server",
+  "buildCommand": "",
+  "framework": null,
   "rewrites": [
     {
       "source": "/(.*)",
