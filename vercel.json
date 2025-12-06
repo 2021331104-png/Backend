@@ -5,7 +5,7 @@
       "runtime": "nodejs20.x"
     }
   },
-  "installCommand": "cd server && npm install",
+  "installCommand": "npm install --prefix server",
   "rewrites": [
     {
       "source": "/(.*)",
